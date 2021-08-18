@@ -1,0 +1,11 @@
+version: "2"
+services:
+  bac-app:
+    container_name: bac-app
+    build:
+      context: ./docker
+    ports:
+      - ${HTTP_PORT}:3000
+    entrypoint: /usr/local/bin/entrypoint.sh
+    volumes:
+      - ./react:/var/www/react

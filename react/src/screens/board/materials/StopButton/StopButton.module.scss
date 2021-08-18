@@ -1,0 +1,22 @@
+.stop-button{
+  background-color: #c74444;
+  border-radius: 50px;
+  border: 1px solid #ab1818;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 2.5em;
+  padding: 12px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #662727;
+  top: 25px;
+  right: 25px;
+  position: absolute;
+}
+
+
+.stop-button:hover {
+  background-color: #d34949;
+}
+

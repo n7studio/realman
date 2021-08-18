@@ -1,0 +1,18 @@
+.lobbyScreen {
+    display: flex;
+}
+
+.player-card {
+    border: 3px dashed rgb(255, 139, 139);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 25px;
+    background-color:  #ff382a;
+    color: white;
+    font-weight: bold;
+}
+
+.player-list {
+    list-style-type: none;
+    padding: 0;
+}

@@ -1,0 +1,11 @@
+.isActive {
+  border: 2px solid green;
+  &:focus{
+    outline: none !important;
+    border: 2px solid green;
+  }
+}
+
+.isInactive {
+  border: 2px solid red;
+}

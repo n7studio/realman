@@ -1,0 +1,6 @@
+export enum Types {
+    FETCH_PLAYERS = "FETCH_PLAYERS",
+    ADD_PLAYER = "ADD_PLAYER",
+    JOIN = "JOIN",
+    REMOVE_PLAYER = "REMOVE_PLAYER",
+}

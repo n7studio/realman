@@ -1,0 +1,56 @@
+$color: rgb(214, 0, 0);
+
+.board-container{
+    display: flex;
+}
+
+.my-board {
+    width: 70%;
+    display: flex;
+
+}
+
+.letter-container {
+  display: inline-block;
+  text-align: center;
+  color: $color;
+  font-size: 1.5em;
+  border: 3px dashed $color;
+  padding: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  margin: 7px;
+  width: 130px;
+  height: 110px;
+}
+
+.letter-label {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.letter {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.choose-letter {
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+    padding: 6px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-color: $color;
+    background-color: white;
+}
+
+.categories-container {
+    margin-left: 150px;
+}
+
+.choose-letter img {
+    width: 100%;
+}

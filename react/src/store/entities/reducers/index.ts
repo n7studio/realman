@@ -1,0 +1,1 @@
+export { addMultipleCategories } from "./addMultipleCategories"

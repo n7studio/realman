@@ -1,0 +1,22 @@
+@mixin letter{
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectedLetter{
+  @include letter;
+  border-color: #49d36e;
+}
+
+.unselectedLetter{
+  @include letter;
+  border-color: rgb(44, 188, 255);;
+}
